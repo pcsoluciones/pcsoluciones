@@ -1,0 +1,55 @@
+[ 
+    {
+        "servicio"  :   "Formateo - Reinstalación de Windows",
+        "detalle"   :   "Respaldo de la información. Instalación y configuración de Sistema Operativo. Instalación programas basicos. ",
+        "clase"     :   "card text-white bg-primary " 
+
+    },
+    {
+        "servicio"  :   "Limpieza - Mantención Windows",
+        "detalle"   :   "Limpieza de Windows y Navegadores. Mantención y limpieza del registro y archivos del Sistema. Desinstalación de programas no deseados y no utilizados. Desinfección de virus, spyware, otros.",
+        "clase"     :   "card text-dark bg-warning  "
+    },
+    {
+        "servicio"     :   "Mejoramiento de Computador",
+        "detalle"      :   "Mejore la velocidad de arranque y para abrir los programas en tu computador. Cambio disco duro a SSD.",
+        "clase"        :   "card text-white bg-info "
+    },
+    {
+        "servicio"     :   "Instalación de Programas",
+        "detalle"      :   "Office, Autocad, Adobe, otros. Instalación y configuración de los programas.",
+        "clase"        :   "card text-white bg-secondary "
+    },
+    {
+        "servicio"     :   "Configuración de Correos",
+        "detalle"      :   "Implementación en OUTLOOK Instalación y configuración de su correo. Mantengalo sincronizado con su teléfono. Respaldo de mail.",
+        "clase"        :   "card text-white bg-success"
+    },
+    {
+        "servicio"     :   "Respaldo de la Información",
+        "detalle"      :   "Danger card title Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "clase"        :   "card text-white bg-danger "
+    },
+    {
+        "servicio"     :   "Impresoras",
+        "detalle"      :   "Instalación y configuración (conexión en red o wifi).",
+        "clase"        :   "card text-white bg-success"
+    },
+    {
+        "servicio"     :   "Mantención Interna Hardware",
+        "detalle"      :   "Computadores e Impresoras Limpieza interna de componentes.",
+        "clase"        :   "card text-dark bg-info "
+    },
+    {
+        "servicio"     :   "Asistencia Remota",
+        "detalle"      :   "Light card title Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "clase"        :   "card text-dark bg-light"
+    },
+    {
+        "servicio"     :   "Redes",
+        "detalle"      :   "CABLEADO DE RED. Instalación y configuración de puntos y conexiones de red (cableado UTP). Intalación y configuración de ROUTERS, SWITCH. REDES INALAMBRICAS WIFI Instalación y configuración de equipos inalámbricos. Configuración Impresoras inalámbricas.",
+        "clase"        :   "card text-dark bg-warning"
+    }
+
+
+]
