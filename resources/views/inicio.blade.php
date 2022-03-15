@@ -17,25 +17,24 @@
 
 <div class="row" id="sectionContenido">
   <div class="col-8">
-    <div class="d-flex flex-wrap justify-content-evenly  ">
+    <div class="d-flex flex-wrap justify-content-evenly " id="tarjetas">
       @foreach($servicios as $key => $value)
-        <div class=" card text-secondary bg-light mb-3 shadow-lg " style="width: 17rem; " >
-          <div class="card-tarjetas" >
-            <div class="titulo mostrar">
-              <div class=" d-flex align-items-center text-center  card-body h5 fw-bold "  style="height: 8em" >
-                <p class="card-titulo" >{{$servicios[$key]->servicio}}</p>
-              </div>
-            </div>
-  
-            <div class="contenido ocultar">
-              <div class="d-flex align-items-center justify-content-center card-body fst-italic" >
-                <p class="card-text " >{{$servicios[$key]->detalle}}</p>
-              </div>
-            </div>
-  
+
+        <div class="card-tarjetas card text-secondary bg-light mb-2 shadow-lg 
+          d-flex align-items-center justify-content-center text-center"  id="cardPadre"
+          style="width: 17rem; height: 15em"  >
+
+          <div class="titulo h5 fw-bold p-0 m-0 parrafo">
+              {{$servicios[$key]->servicio}}
           </div>
 
-         
+          <div class="contenido ocultar">
+            <div class="fst-italic card-text text-primary p-0 m-0
+              d-flex align-items-center text-center justify-content-center parrafo" >
+                {{$servicios[$key]->detalle}}
+            </div>
+          </div>
+  
         </div>
 
       @endforeach
