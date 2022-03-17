@@ -4,7 +4,7 @@
 @section('title', 'Servicio Tecnico Computadores a Domicilio')
 
 @section('encabezado')
-<div class="my-3" >
+<div class="my-3" id="encabezado">
     <p><span class="h2 bg-primary text-white rounded px-3 py-2 "> PC soluciones ✔</span> </p>
     <h2 class="text-primary fs-1"  id="titulo">Soporte Computacional  a Domicilio</h2>
 </div>
@@ -17,20 +17,20 @@
 
 <div class="row" id="sectionContenido">
   <div class="col-8">
-    <div class="d-flex flex-wrap justify-content-evenly " id="tarjetas">
+    <div class="d-flex flex-wrap justify-content-evenly pt-1" id="tarjetas">
       @foreach($servicios as $key => $value)
-
-        <div class="card-tarjetas card text-secondary bg-light mb-2 shadow-lg 
-          d-flex align-items-center justify-content-center text-center"  id="cardPadre"
+      
+        <div class="card-tarjetas card text-secondary  mb-2 shadow-lg 
+          d-flex align-items-center justify-content-center text-center "  
           style="width: 17rem; height: 15em"  >
 
-          <div class="titulo h5 fw-bold p-0 m-0 parrafo">
+          <div class="titulo h5 fw-bold p-0 m-0 parrafo ">
               {{$servicios[$key]->servicio}}
           </div>
 
-          <div class="contenido ocultar">
+          <div class="contenido ocultar ">
             <div class="fst-italic card-text text-primary p-0 m-0
-              d-flex align-items-center text-center justify-content-center parrafo" >
+              d-flex align-items-center text-center justify-content-center parrafo " >
                 {{$servicios[$key]->detalle}}
             </div>
           </div>
