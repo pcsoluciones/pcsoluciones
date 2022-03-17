@@ -19,10 +19,6 @@ encabezado.addEventListener("mousemove",moverMouse)
 
 
 function moverMouse(e){
-    if (e.target.id === "encabezado"){
-        console.log("encabezado")
-    }
-
     // dentro de las tarjetas 
     if (e.target.matches("div.card-tarjetas.card") ) {      
 
